@@ -1,0 +1,222 @@
+*{
+    scroll-behavior:smooth;
+    scroll-padding-top: 65px;
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+    color: #ffffff;
+}
+.nav i {
+    font-size: 20px;   
+    margin-right: 4px; 
+    vertical-align: middle; 
+    margin-left: 5px;
+    
+}
+.beranda { 
+    min-width: 70px;
+}
+
+body{
+    background-color: #340948;
+    background-image: url(visualisasi\ \(1\).png);
+      background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100%;
+}
+
+
+ .nav {
+        position: fixed; 
+        top: 0;
+        width: 100%; 
+        height: 60px;
+        align-items: center;
+        background-color: #8b27fc;
+z-index: 100;
+opacity: 0.9;
+    }
+.nav ul{
+    float: left;
+    
+}
+
+.nav ul li {
+float: left;
+list-style: none;
+position: relative;
+
+}
+.nav ul li a {
+    display: block;
+    font-family: "black arial", sans-serif;
+    color: rgb(255, 221, 127);
+    font-size: 14px;
+    line-height: 20px;
+     padding: 20px 25px;
+     text-decoration: none;
+     min-width: 111px;
+}
+.nav ul li ul {
+    display: none;
+    text-decoration: none;
+    position: absolute;
+    background-color:#8b27fc;
+     color: rgb(255, 221, 127);
+    padding: 0px;
+    z-index: 1000;
+}
+.nav ul li:hover > ul {
+    display: block;
+    background-color: #340953;
+    color:rgb(255, 221, 127) ;
+    text-decoration: none;
+    z-index: 999;
+}
+.nav > ul > li:hover > a {
+    background-color: #340948;
+    color: aliceblue;
+}
+.nav ul li:hover  {
+   background-color:#340948;
+      color:aliceblue(255, 221, 127);
+}
+.nav ul li ul li a {
+     background-color:#8b27fc;
+ color:aliceblue(255, 221, 127);
+}
+
+
+.nav ul li ul li { 
+min-width: 139px; 
+border-radius: 0px 0px 7px 7px;
+list-style: none;
+margin-top: 0px;
+}
+.ker { 
+min-width: 127px; 
+border-radius: 0px 0px 7px 7px;
+padding: 5px;
+}
+.nav ul li ul li a:hover{
+     padding: 20px 25px;
+     
+     background-color:#340953;
+}
+
+nav ul li.home-btn {
+    padding: 0 px;  
+     display: flex;
+    align-items: center;    
+}
+
+nav ul li.home-btn a i {
+    font-size: 20px;        
+    line-height: normal;}
+
+ .container {
+        position: relative; 
+        width: 100%;
+        height: 1400px;
+        background: linear-gradient( rgba(177, 87, 255, 0.8), rgba(189, 54, 189, 0.8), rgba(103, 7, 117, 0.9));
+         
+     align-items: center;
+     z-index: 10;
+     margin-top: 0px;
+       user-select: none;
+    -webkit-user-drag: none;
+    pointer-events: auto;
+     
+    } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .isicon { 
+        opacity: 1;
+    }
+.APFSD { 
+    z-index: 12;
+    margin: 40px 30px 0px 30px;
+    align-items: center;
+
+}
+.fig-APFSD{ 
+    margin-top: 5px;
+    margin-left: 55px;
+    color: rgb(255, 255, 255);
+    border-style: 3px double rgb(255, 255, 255);
+    font-size: 15px;
+}
+.fig2 {
+    font-size: 45px;
+    margin: 15px 55px 10px 55px;
+    text-align: center;
+}
+
+.box1 { 
+    position: absolute;
+    z-index: 100;
+    margin : 20px 20px 20px 20px;
+    border-radius: 10px;
+  opacity: 100%;
+    background: linear-gradient(#d7dcff, rgb(185, 207, 255));
+height: 300px;
+width: 80%;
+padding: 10px 10px 10px 10px;
+}
+.h {
+    font-size: 20px;
+    font-family: "lucida console", monospace;
+    padding-left: 20px;
+    
+}
+.para {
+    font-size: 15px;
+    color: #ffffff;
+    padding: 20px;
+    text-align: justify;
+}
+
+.footer {
+    background:linear-gradient(to right, rgb(255, 165, 249) , rgb(255, 79, 132));
+      position: fixed;
+      color: #340953;
+    bottom: 0;
+    
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    z-index: 999;
+    font-family: "monaco", monospace;
+   
+}
+
+
+.glo{ 
+    color: rgb(243, 255, 75);
+    text-decoration: none;
+
+}
+.glo:hover  {
+    color: rgb(38, 12, 83);
+    text-decoration: underline;
+}
